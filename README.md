@@ -6,7 +6,7 @@ Prof. T. Srivatanakul, but can be further extended to research in the field of I
 
 The goal of the project was to try and reduce the computational resources
 used by an cryptographic algortihm such that it is suitable for use in IoT
-devices,by in turn sacrificing some acceptable amount of resources used in the operational scheme of the device. The code in the repository consists of two implementations of the Elliptic Curve Diffie-Hellman (ECDH) algorithms - 
+devices,by in turn sacrificing some acceptable amount of resources used in the operational scheme of the device. The code in the repository consists of two implementations of the Elliptic Curve Diffie-Hellman (ECDH) algorithms- 
 
 1) The base implementation is done using OpenSSL APIs, which serves as a
    benchmark since it is a popular library for encrypting messages over the
