@@ -18,7 +18,7 @@ devices,by in turn sacrificing some acceptable amount of resources used in the o
    precision arithmetic(i.e limited by the host machine). GMP is required to run and compile the code.
    
 
-# Compilation
+## Compilation
 This code is meant only for systems running Linux or with a Linux-compatible
 ``/dev/urandom`` device available on the system.
 
@@ -34,7 +34,7 @@ complains about ``-Wall`` as unrecognized option or the complains about
 ``-std=c99``, run the command as ``CC=gcc CFLAGS='-std=c99' make``
 
 
-# Running
+## Running
 To run the code, execute ``./ecdh``. The code will generate two keypairs and validate
 the ecdh exchange between them. To see the keypairs generated, execute ``./ecdh -v``.
 
@@ -42,7 +42,7 @@ To run the OpenSSL version, execute ``./ecdh-openssl``. There is no option to se
 keypairs generated here.
 
 
-# Benchmarking
+## Benchmarking
 To get statistics on memory and CPU usage, run ``./utils/benchmark [executable] [iterations]``.
 The benchmark script requires GNU time to run, not the shell built-in time.
 
