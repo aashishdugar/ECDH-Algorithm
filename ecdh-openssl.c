@@ -1,3 +1,4 @@
+//by Aashish Dugar
 /**
  * See https://wiki.openssl.org/index.php/Elliptic_Curve_Diffie_Hellman
  * for source. The function below are based on the ecdh_low algorithm
