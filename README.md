@@ -46,3 +46,5 @@ keypairs generated here.
 To get statistics on memory and CPU usage, run ``./utils/benchmark [executable] [iterations]``.
 The benchmark script requires GNU time to run, not the shell built-in time.
 
+(Kindly refer to the PDF for further information.)
+
